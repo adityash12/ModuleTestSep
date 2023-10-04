@@ -14,6 +14,7 @@
     position: sticky;
     top: 0px;
     background-color: white;
+    z-index: 1;
  
  }
  .header-nav{
@@ -184,6 +185,7 @@ height: 4.5rem;
     box-shadow: 2px 2px 15px black;
     border: none;
     padding: 2rem;
+  
 }
 .cart-1>h4{
     font-size: 25px;
@@ -260,12 +262,10 @@ height: 4.5rem;
 .hiring-paterns>p{
     text-align: center;
 }
-.company-row1{
-    overflow-x: scroll;
-}
+
 .company-row1>div>img{
     width: 200px;
-    height: 80px;
+    height: 60px;
     border-radius: 5px;
     /* border: 2px solid red; */
     margin-inline: 20px;
@@ -277,9 +277,7 @@ height: 4.5rem;
     cursor: pointer;
   
 }
-::-webkit-scrollbar{
-    display: none;
-  }
+
 .company-row1>div{
   white-space: no-wrap;
 }
@@ -298,18 +296,19 @@ height: 4.5rem;
     margin-top: 50px;
 }
 
-
+.card-success{
+    width: 100%;
+    margin: auto;
+   
+}
 .card-success-1{
-    width: 450px;
-    height: 400px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 2px solid blue;
     padding: 20px;
     box-shadow: 1px 1px 15px black !important;
     border: none;
      margin-inline: 10px;
-     overflow: hidden;
-     box-sizing: border-box;
+     
 }
  /* media Query */
  @media screen and(max-width:768px) {
@@ -325,6 +324,7 @@ height: 4.5rem;
         flex-wrap: wrap;
         
     }
+    
    
     
     
